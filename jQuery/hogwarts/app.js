@@ -87,4 +87,9 @@ $(() => {
   $h4a.insertBefore($h1);
   $h4a.remove();
   $h4a.insertAfter($h3);
+
+  $(".secret").hide().delay(2000).show(0);
+
+  $li5.addClass("cabbage");
+  $li5.removeClass("cabbage");
 });
