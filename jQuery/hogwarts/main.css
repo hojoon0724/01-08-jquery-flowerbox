@@ -2,6 +2,8 @@ body {
   background-color: #292929;
   color: #d1d1d1;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .dohg {
@@ -14,4 +16,14 @@ body {
 ul {
   list-style-type: none;
   padding-inline-start: 0;
+}
+
+table,
+th,
+td {
+  border: gray 1px solid;
+}
+
+table {
+  margin: 0 auto;
 }

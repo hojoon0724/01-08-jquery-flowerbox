@@ -33,4 +33,50 @@ $(() => {
   $ul.append($li5);
   const $li6 = $("<li>").text("Bertie Bott's Every Flavor [Jelly] Beans.");
   $ul.append($li6);
+
+  const $h5 = $("<h5>").text("Spring 2017");
+  $container.append($h5);
+  const $table = $("<table>");
+  $container.append($table);
+  const $thead = $("<thead>");
+  $table.append($thead);
+  const $thDay = $("<th>").text("Day");
+  $thead.append($thDay);
+  const $thClasses = $("<th>").text("Classes");
+  $thead.append($thClasses);
+
+  const $tr1 = $("<tr>");
+  $table.append($tr1);
+  const $tdMonday = $("<td>").text("Monday");
+  $tr1.append($tdMonday);
+  const $tdDivination = $("<td>").text("Divination");
+  $tr1.append($tdDivination);
+
+  const $tr2 = $("<tr>");
+  $table.append($tr2);
+  const $tdTuesday = $("<td>").text("Tuesday");
+  $tr2.append($tdTuesday);
+  const $tdHistory = $("<td>").text("History of Magic");
+  $tr2.append($tdHistory);
+
+  const $tr3 = $("<tr>");
+  $table.append($tr3);
+  const $tdWednesday = $("<td>").text("Wednesday");
+  $tr3.append($tdWednesday);
+  const $tdCharms = $("<td>").text("Charms");
+  $tr3.append($tdCharms);
+
+  const $tr4 = $("<tr>");
+  $table.append($tr4);
+  const $tdThursday = $("<td>").text("Thursday");
+  $tr4.append($tdThursday);
+  const $tdPotions = $("<td>").text("Potions");
+  $tr4.append($tdPotions);
+
+  const $tr5 = $("<tr>");
+  $table.append($tr5);
+  const $tdFriday = $("<td>").text("Friday");
+  $tr5.append($tdFriday);
+  const $tdHerb = $("<td>").text("Herb");
+  $tr5.append($tdHerb);
 });
