@@ -4,10 +4,14 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  letter-spacing: 0.1rem;
+  font-family: Helvetica;
 }
 
 .dohg {
-  font-family: fantasy;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration-color: #ffffff;
+  text-decoration: dotted;
 }
 .secret {
   opacity: 0.5;
@@ -21,13 +25,87 @@ ul {
 table,
 th,
 td {
-  border: gray 1px solid;
+  padding: 1ch;
 }
 
 table {
   margin: 0 auto;
+  width: 100%;
+  text-align: end;
+}
+
+td:first-child,
+th:first-child {
+  text-align: right;
+}
+
+td:last-child,
+th:last-child {
+  text-align: left;
+}
+
+td {
+  width: 50%;
+}
+
+th {
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
 .cabbage {
   color: chartreuse;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 16px;
+}
+
+h5 {
+  margin-bottom: 0.4rem;
+  margin-top: 3rem;
+  text-decoration: underline 1px white;
+  text-underline-offset: 10px;
+}
+
+li {
+  padding: 0.3ch;
+}
+
+h4.dohg {
+  /* border: 1px solid #00b7b7; */
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+}
+h4.dohg:hover {
+  background-color: #00b7b7;
+  color: #0f0f0f;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: 0.2s ease-in-out;
+}
+
+li {
+  transition: 0.2s ease-in-out;
+}
+
+li:hover {
+  color: #00b7b7;
+  transition: 0.2s ease-in-out;
+}
+
+ul {
+  border: 1px solid #00b7b7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.secret {
+  transition: ease-in-out;
+}
+
+h2 {
+  margin: 0rem;
 }

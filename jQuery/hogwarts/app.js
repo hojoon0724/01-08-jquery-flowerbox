@@ -92,4 +92,8 @@ $(() => {
 
   $li5.addClass("cabbage");
   $li5.removeClass("cabbage");
+
+  $h5.text("Fall 2018");
+  $ul.prepend($li1);
+  $ul.attr("storage", "chest");
 });
