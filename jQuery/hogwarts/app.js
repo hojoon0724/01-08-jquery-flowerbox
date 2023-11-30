@@ -11,10 +11,26 @@ $(() => {
   $h3.text("Griffindor");
   $container.append($h3);
   const $h4a = $("<h4>");
-  $h4a.attr("id", "#dohg");
+  $h4a.attr("class", "dohg");
   $h4a.text("Sir Nimbus Doodlesdorgf Flufferton III");
   $container.append($h4a);
   const $h4b = $("<h4>");
   $h4b.text("Phoenix Feather");
   $container.append($h4b);
+
+  const $ul = $("<ul>");
+  $ul.attr("storage", "trunk");
+  $container.append($ul);
+  const $li1 = $("<li>").text("butter beer");
+  $ul.append($li1);
+  const $li2 = $("<li>").text("invisibility cloak").attr("class", "secret");
+  $ul.append($li2);
+  const $li3 = $("<li>").text("magic map").attr("class", "secret");
+  $ul.append($li3);
+  const $li4 = $("<li>").text("time turner").attr("class", "secret");
+  $ul.append($li4);
+  const $li5 = $("<li>").text("leash").attr("class", "dohg");
+  $ul.append($li5);
+  const $li6 = $("<li>").text("Bertie Bott's Every Flavor [Jelly] Beans.");
+  $ul.append($li6);
 });
