@@ -77,6 +77,14 @@ $(() => {
   $table.append($tr5);
   const $tdFriday = $("<td>").text("Friday");
   $tr5.append($tdFriday);
-  const $tdHerb = $("<td>").text("Herb");
+  const $tdHerb = $("<td>").text("Herbology");
   $tr5.append($tdHerb);
+
+  $h4b.remove();
+  $li1.remove();
+  $h4b.text("Some Wand").css("color", "indigo");
+  $h4b.insertAfter($h4a);
+  $h4a.insertBefore($h1);
+  $h4a.remove();
+  $h4a.insertAfter($h3);
 });
