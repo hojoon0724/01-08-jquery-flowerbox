@@ -4,4 +4,17 @@ $(() => {
   const $h1 = $("<h1>");
   $h1.text("Hogwarts");
   $container.append($h1);
+  const $h2 = $("<h2>");
+  $h2.text("Hojoon Kim");
+  $container.append($h2);
+  const $h3 = $("<h3>");
+  $h3.text("Griffindor");
+  $container.append($h3);
+  const $h4a = $("<h4>");
+  $h4a.attr("id", "#dohg");
+  $h4a.text("Sir Nimbus Doodlesdorgf Flufferton III");
+  $container.append($h4a);
+  const $h4b = $("<h4>");
+  $h4b.text("Phoenix Feather");
+  $container.append($h4b);
 });
